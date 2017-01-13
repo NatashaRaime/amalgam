@@ -44,11 +44,6 @@
                                             <rect key="frame" x="15" y="0.0" width="59" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jY-4R-BXg">
-                                            <rect key="frame" x="-17" y="7" width="375" height="44"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="This button for swipe"/>
-                                        </button>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="v72-9e-U8f">
                                             <rect key="frame" x="141" y="0.0" width="59" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
@@ -78,7 +73,7 @@
                 <navigationController title="Amalgam" automaticallyAdjustsScrollViewInsets="NO" id="p1Q-oH-ibG" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" translucent="NO" backIndicatorImage="PushIconSmall" id="Llk-Fw-3VQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" backIndicatorImage="PushIconSmall" id="Llk-Fw-3VQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

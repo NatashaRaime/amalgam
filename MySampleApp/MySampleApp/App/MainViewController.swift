@@ -34,31 +34,42 @@ class MainViewController: UITableViewController {
         }
 
             presentSignInViewController()
-        
+        //this is the first page loaded after launch. this is the user sign in tab with cognito details
         var demoFeature = DemoFeature.init(
-            name: NSLocalizedString("User Sign-in",
+            name: NSLocalizedString("User Profile",
                 comment: "Label for demo menu option."),
-            detail: NSLocalizedString("Enable user login with popular 3rd party providers.",
+            detail: NSLocalizedString("Your User Info remains ANONYMOUS to other members",
                 comment: "Description for demo menu option."),
             icon: "UserIdentityIcon", storyboard: "UserIdentity")
         
         demoFeatures.append(demoFeature)
         
         demoFeature = DemoFeature.init(
-            name: NSLocalizedString("Push Notifications",
+            name: NSLocalizedString("Messaging", // "Push Notifications",
                 comment: "Label for demo menu option."),
-            detail: NSLocalizedString("Send individual or group push notifications to your apps.",
+            detail: NSLocalizedString("Send individual or group push notifications to members",
                 comment: "Description for demo menu option."),
             icon: "PushIcon", storyboard: "PushNotification")
         
         demoFeatures.append(demoFeature)
-        
+        //Save user files in the cloud and sync user data in key/value pairs.
         demoFeature = DemoFeature.init(
-            name: NSLocalizedString("User Data Storage",
+            name: NSLocalizedString("Saved Files",
                 comment: "Label for demo menu option."),
-            detail: NSLocalizedString("Save user files in the cloud and sync user data in key/value pairs.",
+            detail: NSLocalizedString("Check your personal or shared files",
             comment: "Description for demo menu option."),
             icon: "UserFilesIcon", storyboard: "UserDataStorage")
+        
+        //adding this in to see if it works
+        demoFeatures.append(demoFeature)
+        //Go to the survey
+        demoFeature = DemoFeature.init(
+            name: NSLocalizedString("Take the survey",
+                comment: "Label for demo menu option."),
+            detail: NSLocalizedString("Your Weekly Survey",
+                comment: "Description for demo menu option."),
+            icon: "SurveyIcon", storyboard: "SurveyPage")
+
         
         demoFeatures.append(demoFeature)
 
@@ -97,7 +108,7 @@ class MainViewController: UITableViewController {
             })
             
             if (AWSIdentityManager.defaultIdentityManager().loggedIn) {
-                navigationItem.rightBarButtonItem!.title = NSLocalizedString("Sign-Out", comment: "Label for the logout button.")
+                navigationItem.rightBarButtonItem!.title = NSLocalizedString("Sign-out", comment: "Label for the logout button.")
                 navigationItem.rightBarButtonItem!.action = "handleLogout"
             }
     }
