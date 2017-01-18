@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6EC6ECF71E2964BD005217F1 /* SurveyPage in Resources */ = {isa = PBXBuildFile; fileRef = 6EC6ECF61E2964BD005217F1 /* SurveyPage */; };
-		6EC6ECF91E296506005217F1 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC6ECF81E296506005217F1 /* Storyboard.storyboard */; };
+		6EFDFEEA1E30098B00F34363 /* SurveyMonkeyiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFDFEE91E30098B00F34363 /* SurveyMonkeyiOSSDK.framework */; };
 		E7A30F0408712FCA00000000 /* AWSMobileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29D1359AD000000000 /* AWSMobileClient.swift */; };
 		E7A30F040A25362000000000 /* UserIdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29091B430800000000 /* UserIdentityViewController.swift */; };
 		E7A30F040A77EDE800000000 /* UserIdentity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E294160B7DE00000000 /* UserIdentity.storyboard */; };
@@ -21,7 +21,6 @@
 		E7A30F042BE69CD900000000 /* UserFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29074C73AD00000000 /* UserFilesViewController.swift */; };
 		E7A30F042C63D6A600000000 /* AWSSNS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29E156824300000000 /* AWSSNS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E7A30F042C63D6A600000001 /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29E156824300000000 /* AWSSNS.framework */; };
-		E7A30F0432EB7F3A00000000 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E293366EC4E00000000 /* Launch Screen.storyboard */; };
 		E7A30F043744316E00000000 /* ColorThemeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29E7062A2900000000 /* ColorThemeSettings.swift */; };
 		E7A30F043CE5243400000000 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29743ED57700000000 /* SignIn.storyboard */; };
 		E7A30F043D26D26700000000 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2930C5E62600000000 /* Security.framework */; };
@@ -80,7 +79,7 @@
 		1DD70E292A59F02200000000 /* MySampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MySampleApp.entitlements; path = MySampleApp/MySampleApp.entitlements; sourceTree = SOURCE_ROOT; };
 		1DD70E292B41C28900000000 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UtilityFunctions.swift; path = MySampleApp/App/Utility/UtilityFunctions.swift; sourceTree = SOURCE_ROOT; };
 		1DD70E2930C5E62600000000 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		1DD70E293366EC4E00000000 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "MySampleApp/App/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
+		1DD70E293366EC4E00000000 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "MySampleApp/App/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		1DD70E2939121B0900000000 /* UserSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = UserSettings.storyboard; path = MySampleApp/Demo/UserSettings/UserSettings.storyboard; sourceTree = SOURCE_ROOT; };
 		1DD70E293999A38A00000000 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		1DD70E293A7B897F00000000 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognito.framework; path = MySampleApp/Sdk/Aws/extras/AWSCognito.framework; sourceTree = "<group>"; };
@@ -113,7 +112,7 @@
 		1DD70E29F69BF79F00000000 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1DD70E29F871E13400000000 /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileHubHelper.framework; path = MySampleApp/AmazonAws/AWSMobileHubHelper.framework; sourceTree = "<group>"; };
 		6EC6ECF61E2964BD005217F1 /* SurveyPage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SurveyPage; path = mysampleapp/demo/push/SurveyPage; sourceTree = SOURCE_ROOT; };
-		6EC6ECF81E296506005217F1 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = MySampleApp/Demo/Push/SurveyPage/Storyboard.storyboard; sourceTree = SOURCE_ROOT; };
+		6EFDFEE91E30098B00F34363 /* SurveyMonkeyiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SurveyMonkeyiOSSDK.framework; path = "../../../../../Downloads/surveymonkey-ios-sdk-1.0.5/SurveyMonkeyiOSSDK.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EFDFEEA1E30098B00F34363 /* SurveyMonkeyiOSSDK.framework in Frameworks */,
 				E7A30F04290F3D4500000001 /* AWSCognito.framework in Frameworks */,
 				E7A30F043FB42B0300000001 /* AWSS3.framework in Frameworks */,
 				E7A30F045A3F5D6A00000001 /* AWSCore.framework in Frameworks */,
@@ -162,6 +162,7 @@
 		B401C9792826A06200000000 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EFDFEE91E30098B00F34363 /* SurveyMonkeyiOSSDK.framework */,
 				1DD70E293A7B897F00000000 /* AWSCognito.framework */,
 				1DD70E29679F72B300000000 /* AWSCore.framework */,
 				1DD70E29F871E13400000000 /* AWSMobileHubHelper.framework */,
@@ -270,7 +271,6 @@
 				B401C979C6D41E2100000000 /* UserFiles */,
 				B401C979C666184F00000000 /* UserIdentity */,
 				B401C979DEBB169D00000000 /* UserSettings */,
-				6EC6ECF81E296506005217F1 /* Storyboard.storyboard */,
 			);
 			name = Demo;
 			path = mysampleapp/demo;
@@ -388,11 +388,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A30F043CE5243400000000 /* SignIn.storyboard in Resources */,
-				E7A30F0432EB7F3A00000000 /* Launch Screen.storyboard in Resources */,
 				6EC6ECF71E2964BD005217F1 /* SurveyPage in Resources */,
 				E7A30F04D60D475500000000 /* Images.xcassets in Resources */,
 				E7A30F043D398AA700000000 /* UserSettings.storyboard in Resources */,
-				6EC6ECF91E296506005217F1 /* Storyboard.storyboard in Resources */,
 				E7A30F04EC0E189D00000000 /* UserFiles.storyboard in Resources */,
 				E7A30F049C18DE6700000000 /* PushNotification.storyboard in Resources */,
 				E7A30F040A77EDE800000000 /* UserIdentity.storyboard in Resources */,

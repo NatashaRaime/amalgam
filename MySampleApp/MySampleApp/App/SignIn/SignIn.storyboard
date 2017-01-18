@@ -122,7 +122,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.75130756519999997" green="0.93013710930000004" blue="0.9338942308" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="JBL-6p-4bg" firstAttribute="leading" secondItem="Ygm-EJ-04R" secondAttribute="leadingMargin" id="0m7-xl-Xbk"/>
                             <constraint firstItem="i6t-Ik-XAc" firstAttribute="baseline" secondItem="T6t-nK-GpM" secondAttribute="baseline" id="32J-HL-YQ9"/>

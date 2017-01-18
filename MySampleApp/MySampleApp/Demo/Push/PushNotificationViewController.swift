@@ -99,7 +99,7 @@ extension PushNotificationViewController: UITableViewDataSource {
         let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath)
         let topic = AWSPushManager.defaultPushManager().topics[indexPath.row]
         cell.textLabel!.text = topic.topicName
-        cell.detailTextLabel!.text = topic.topicARN
+        cell.detailTextLabel!.text = topic.topicARN  //see what this takes off NNN
         cell.accessoryType = topic.subscribed ? .Checkmark : .None
         return cell
     }
@@ -120,7 +120,7 @@ extension PushNotificationViewController: AWSPushManagerDelegate {
     
     func pushManager(pushManager: AWSPushManager, didFailToRegisterWithError error: NSError) {
         pushNotificationSwitch.on = false
-        showAlertWithTitle("Error", message: "Failed to enable Push Notifications.")
+        showAlertWithTitle("Error", message: "enable pn's unsuccessful")
     }
     
     func pushManager(pushManager: AWSPushManager, didReceivePushNotification userInfo: [NSObject : AnyObject]) {

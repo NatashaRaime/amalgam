@@ -44,10 +44,6 @@
                                             <rect key="frame" x="15" y="0.0" width="59" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="v72-9e-U8f">
-                                            <rect key="frame" x="141" y="0.0" width="59" height="59"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>

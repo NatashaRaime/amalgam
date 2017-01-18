@@ -36,9 +36,9 @@ class MainViewController: UITableViewController {
             presentSignInViewController()
         //this is the first page loaded after launch. this is the user sign in tab with cognito details
         var demoFeature = DemoFeature.init(
-            name: NSLocalizedString("User Profile",
-                comment: "Label for demo menu option."),
-            detail: NSLocalizedString("Your User Info remains ANONYMOUS to other members",
+            name: NSLocalizedString("Profile",
+                comment: "Label"),
+            detail: NSLocalizedString("",
                 comment: "Description for demo menu option."),
             icon: "UserIdentityIcon", storyboard: "UserIdentity")
         
@@ -47,16 +47,16 @@ class MainViewController: UITableViewController {
         demoFeature = DemoFeature.init(
             name: NSLocalizedString("Messaging", // "Push Notifications",
                 comment: "Label for demo menu option."),
-            detail: NSLocalizedString("Send individual or group push notifications to members",
+            detail: NSLocalizedString("",
                 comment: "Description for demo menu option."),
             icon: "PushIcon", storyboard: "PushNotification")
         
         demoFeatures.append(demoFeature)
         //Save user files in the cloud and sync user data in key/value pairs.
         demoFeature = DemoFeature.init(
-            name: NSLocalizedString("Saved Files",
+            name: NSLocalizedString("Saved",
                 comment: "Label for demo menu option."),
-            detail: NSLocalizedString("Check your personal or shared files",
+            detail: NSLocalizedString("",
             comment: "Description for demo menu option."),
             icon: "UserFilesIcon", storyboard: "UserDataStorage")
         
@@ -66,7 +66,7 @@ class MainViewController: UITableViewController {
         demoFeature = DemoFeature.init(
             name: NSLocalizedString("Take the survey",
                 comment: "Label for demo menu option."),
-            detail: NSLocalizedString("Your Weekly Survey",
+            detail: NSLocalizedString("",
                 comment: "Description for demo menu option."),
             icon: "SurveyIcon", storyboard: "SurveyPage")
 
@@ -170,7 +170,7 @@ class MainViewController: UITableViewController {
                 self.setupRightBarButtonItem()
                     self.presentSignInViewController()
             })
-            // print("Logout Successful: \(signInProvider.getDisplayName)");
+            //print("Logout Successful: \(signInProvider.getDisplayName)");
         } else {
             assert(false)
         }
